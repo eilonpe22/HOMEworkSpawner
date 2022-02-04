@@ -1,0 +1,62 @@
+{
+    "name": "SpawnControlls",
+    "maps": [
+        {
+            "name": "Spawner",
+            "id": "14b88cde-0803-42c0-8ef8-7da05bb217a9",
+            "actions": [
+                {
+                    "name": "spawen",
+                    "type": "PassThrough",
+                    "id": "6643ddcf-730e-4931-834e-071afe5ae1f0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dedb48bc-a0ca-4a0f-b890-8a5c034a5419",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "spawen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "efa6bd96-a4b1-4a94-ad65-b54744ebd8fe",
+            "actions": [
+                {
+                    "name": "PPspawn",
+                    "type": "PassThrough",
+                    "id": "500f87a6-20ec-4a0b-be6a-76a2b60c7923",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b3ed2478-7f80-4cf3-91d9-1fddbf4f2f7c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PPspawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
